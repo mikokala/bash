@@ -35,7 +35,7 @@ Lähdin liikkeelle Gitin asennuksella.
 	sudo apt-get update
 	sudo apt-get install -y git
 
-Olin luonut aikaisemmalla opetuskerralla git-varaston jossa oli valmiina esimerkki salt-tila. Kloonasin sen virtuaalikoneelleni.
+Olin luonut aikaisemmalla opetuskerralla [git-varaston](https://github.com/mikokala/bash) jossa oli valmiina esimerkki salt-tila. Kloonasin sen virtuaalikoneelleni.
 
 ![alt text](https://lahdemi.files.wordpress.com/2018/05/1.png?w=574 "1")
 
