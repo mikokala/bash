@@ -4,7 +4,7 @@ Viimeisinä tehtävinä piti valita kurssin lopputyö, kirjoittaa raportti markd
 
 Tehtävät ovat osana Tero Karvisen palvelinten hallinta -kurssia. Tehtävänannot löytyvät [Teron kotisivuilta.](http://terokarvinen.com/2018/aikataulu-%E2%80%93-palvelinten-hallinta-ict4tn022-4-ti-5-ke-5-loppukevat-2018-5p)
 
-Käytin tehtävässä salt-masterina [DigitalOceanista](https://cloud.digitalocean.com) vuokrattua virtuaalipalvelinta (Ubuntu 16.04.3 x64)
+Käytin tehtävässä VirtualBoxilla luotua Xubuntua joka toimi salt-orjana (Xubuntu 16.04.3 x64)
 
 ---
 
