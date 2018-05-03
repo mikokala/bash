@@ -22,7 +22,7 @@ Lisään lopputuloksen tähän tilaan myöhemmin.
 
 *Julkaise raportti MarkDownilla. Jos käytät GitHub:ia, se tekee muotoilun automaattisesti “.md”-päätteisiin dokumentteihin.*
 
-Markdown versio löytyy [täältä.](https://github.com/mikokala/bash/)
+Markdown versio löytyy [täältä.](https://github.com/mikokala/bash/blob/master/raportti.md)
 
 ---
 
