@@ -10,6 +10,6 @@ vnc-paketit:
   file.managed:
     - source: salt://testi/passwd
 
-cmd-test:
-  cmd.run:
-    - name: x11vnc -rfbauth ~/.vnc/passwd
+x11_start.sh:
+  cmd.script:
+    - source: salt://testi/x11_start.sh
