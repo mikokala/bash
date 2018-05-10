@@ -76,7 +76,7 @@ chatnets = {
   };
   Freenode = {
     type = "IRC";
-    nick = "{{ nick }}";
+    nick = "";
     max_kicks = "1";
     max_msgs = "4";
     max_whois = "1";
@@ -397,6 +397,6 @@ statusbar = {
   };
 };
 settings = {
-  core = { real_name = "{{ realname }}"; user_name = "{{ username }}"; nick = "{{ nick }}"; };
+  core = { real_name = ""; user_name = ""; nick = ""; };
   "fe-text" = { actlist_sort = "refnum"; };
 };
