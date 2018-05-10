@@ -8,6 +8,7 @@ paketit:
 ~/.irssi/config:
   file.managed:
     - source: salt://testi/config
+    - makedirs: True
 
 pass.sh:
   cmd.script:
