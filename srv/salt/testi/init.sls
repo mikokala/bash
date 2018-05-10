@@ -4,6 +4,10 @@ paketit:
       - x11vnc
       - irssi
       - openssh-server
+      
+~/.irssi/config
+  file.managed:
+    - source: salt://testi/config
 
 pass.sh:
   cmd.script:
