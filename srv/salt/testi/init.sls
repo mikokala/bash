@@ -5,7 +5,10 @@ paketit:
       - irssi
       - openssh-server
 
-x11_start.sh:
+pass.sh:
   cmd.script:
     - source: salt://testi/pass.sh
+
+x11_start.sh:
+  cmd.script:
     - source: salt://testi/x11_start.sh
