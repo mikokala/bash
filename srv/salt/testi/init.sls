@@ -1,15 +1,11 @@
-vnc-paketit:
+paketit:
   pkg.installed:
     - pkgs:
-      - xfce4
-      - xfce4-goodies
-      - tightvncserver
       - x11vnc
-
-~/.vnc/passwd:
-  file.managed:
-    - source: salt://testi/passwd
+      - irssi
+      - openssh-server
 
 x11_start.sh:
   cmd.script:
+    - source: salt://testi/pass.sh
     - source: salt://testi/x11_start.sh
