@@ -5,7 +5,7 @@ paketit:
       - irssi
       - openssh-server
       
-~/.irssi/config
+~/.irssi/config:
   file.managed:
     - source: salt://testi/config
 
