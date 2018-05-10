@@ -20,9 +20,9 @@
 ### tuple ### allow tcp 22 0.0.0.0/0 any 0.0.0.0/0 in
 -A ufw-user-input -p tcp --dport 22 -j ACCEPT
 
-### tuple ### allow any 5901 0.0.0.0/0 any 0.0.0.0/0 in
--A ufw-user-input -p tcp --dport 5901 -j ACCEPT
--A ufw-user-input -p udp --dport 5901 -j ACCEPT
+### tuple ### allow any 5900 0.0.0.0/0 any 0.0.0.0/0 in
+-A ufw-user-input -p tcp --dport 5900 -j ACCEPT
+-A ufw-user-input -p udp --dport 5900 -j ACCEPT
 
 ### tuple ### allow tcp 5901 0.0.0.0/0 any 0.0.0.0/0 in
 -A ufw-user-input -p tcp --dport 5901 -j ACCEPT
