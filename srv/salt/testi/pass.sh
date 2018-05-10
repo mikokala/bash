@@ -1,2 +1,2 @@
 #!/bin/bash
-x11vnc -storepasswd testi123 ~/.vnc/passwd
+x11vnc -storepasswd testi123 ~/Documents/passwd
