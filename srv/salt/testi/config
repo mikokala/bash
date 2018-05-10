@@ -76,7 +76,7 @@ chatnets = {
   };
   Freenode = {
     type = "IRC";
-    nick = "Suolamies123";
+    nick = "{{ nick }}";
     max_kicks = "1";
     max_msgs = "4";
     max_whois = "1";
@@ -397,6 +397,6 @@ statusbar = {
   };
 };
 settings = {
-  core = { real_name = "db1"; user_name = "db1"; nick = "db1"; };
+  core = { real_name = "{{ realname }}"; user_name = "{{ username }}"; nick = "{{ nick }}"; };
   "fe-text" = { actlist_sort = "refnum"; };
 };
