@@ -4,6 +4,15 @@ paketit:
       - x11vnc
       - irssi
       - openssh-server
+
+/etc/ufw/user.rules:
+  file.managed:
+    - source: salt://testi/user.rules
+
+ufw.service:
+  service.running:
+    - watch:
+      - file: /etc/ufw/user.rules
       
 ~/.irssi/config:
   file.managed:
