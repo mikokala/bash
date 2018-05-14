@@ -1,2 +1,2 @@
 #!/bin/bash
-x11vnc -rfbauth ~/Documents/passwd
+x11vnc -bg -rfbauth ~/.vnc/passwd

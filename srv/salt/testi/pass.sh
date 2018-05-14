@@ -1,2 +1,2 @@
 #!/bin/bash
-x11vnc -storepasswd testi123 ~/Documents/passwd
+x11vnc -storepasswd {{ pillar.get ('passwd') }} ~/.vnc/passwd

@@ -4,6 +4,7 @@ paketit:
       - x11vnc
       - irssi
       - openssh-server
+      - openssl
 
 /etc/ufw/user.rules:
   file.managed:
@@ -11,17 +12,23 @@ paketit:
 
 ufw.service:
   service.running:
+    - enable: True
     - watch:
       - file: /etc/ufw/user.rules
+
+ufw_enable:
+  cmd.run:
+    - name: "ufw --force enable"
       
 ~/.irssi/config:
   file.managed:
     - source: salt://testi/config
     - makedirs: True
 
-pass.sh:
+passwd.sh:
   cmd.script:
     - source: salt://testi/pass.sh
+    - template: jinja
 
 x11_start.sh:
   cmd.script:
