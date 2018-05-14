@@ -33,3 +33,8 @@ passwd.sh:
 x11_start.sh:
   cmd.script:
     - source: salt://testi/x11_start.sh
+
+viesti:
+  cmd.script:
+    - source: salt://testi/viesti.sh
+    - template: jinja
