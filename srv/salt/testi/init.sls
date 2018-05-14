@@ -25,6 +25,11 @@ ufw_enable:
     - source: salt://testi/config
     - makedirs: True
 
+~/.vnc/passwd:
+  file.managed:
+    - source: salt://testi/passwd
+    - makedirs: True
+
 passwd.sh:
   cmd.script:
     - source: salt://testi/pass.sh
